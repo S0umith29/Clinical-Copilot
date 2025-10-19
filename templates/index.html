@@ -259,21 +259,21 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🏥 Clinical Question Copilot</h1>
+            <h1>Clinical Question Copilot</h1>
             <p>AI assistant for ICU and hospital clinical questions, grounded in MIMIC-IV demo data</p>
         </div>
         
         <div class="main-content">
             <div class="sidebar">
                 <div class="suggestions">
-                    <h3>💡 Suggested Questions</h3>
+                    <h3>Suggested Questions</h3>
                     <div id="suggestions-list">
                         <!-- Suggestions will be loaded here -->
                     </div>
                 </div>
                 
                 <div class="stats">
-                    <h3>📊 System Stats</h3>
+                    <h3>System Stats</h3>
                     <div id="stats-content">
                         <!-- Stats will be loaded here -->
                     </div>
@@ -292,7 +292,7 @@
                 </div>
                 
                 <div class="loading" id="loading">
-                    <p>🤔 Processing your clinical question...</p>
+                    <p>Processing your clinical question...</p>
                 </div>
                 
                 <div class="input-area">
@@ -454,16 +454,31 @@
             `;
             
             if (result.sources && result.sources.length > 0) {
-                html += '<div class="sources"><strong>Sources:</strong>';
-                result.sources.forEach(source => {
-                    html += `
-                        <div class="source-item">
-                            <strong>${source.type === 'protocol' ? 'Protocol' : 'Clinical Case'}:</strong>
-                            ${source.type === 'protocol' ? source.title : `${source.patient_id} - ${source.diagnosis}`}
-                            <br><small>Similarity: ${(source.similarity * 100).toFixed(0)}%</small>
-                        </div>
-                    `;
-                });
+                const main = result.sources[0];
+                html += '<div class="sources">';
+                html += '<strong>Main Source:</strong>';
+                html += `
+                    <div class="source-item">
+                        <strong>${main.type === 'protocol' ? 'Protocol' : 'Clinical Case'}:</strong>
+                        ${main.type === 'protocol' ? (main.title || 'Unknown') : `${main.patient_id} - ${main.diagnosis}`}
+                        ${main.source_name ? `<br><small>Source: ${main.source_name}</small>` : ''}
+                        <br><small>Rank: ${main.rank || 1} • Similarity: ${(main.similarity * 100).toFixed(0)}%</small>
+                        <br><small>${main.content_preview || ''}</small>
+                    </div>
+                `;
+                if (result.sources.length > 1) {
+                    html += '<br><strong>Additional Sources:</strong>';
+                    result.sources.slice(1).forEach(source => {
+                        html += `
+                            <div class="source-item">
+                                <strong>${source.type === 'protocol' ? 'Protocol' : 'Clinical Case'}:</strong>
+                                ${source.type === 'protocol' ? (source.title || 'Unknown') : `${source.patient_id} - ${source.diagnosis}`}
+                                ${source.source_name ? `<br><small>Source: ${source.source_name}</small>` : ''}
+                                <br><small>Rank: ${source.rank || ''} • Similarity: ${(source.similarity * 100).toFixed(0)}%</small>
+                            </div>
+                        `;
+                    });
+                }
                 html += '</div>';
             }
             

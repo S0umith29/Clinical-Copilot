@@ -31,6 +31,7 @@ class ClinicalGuardrails:
             r"what.*(?:pain|sedation|analgesia|comfort)",
             r"what.*(?:infection|sepsis|antibiotic|fever)",
             r"what.*(?:nutrition|feeding|calorie|protein)",
+            r"what.*(?:shock|vasopressor|pressors|vasopressin|inotrope|dobutamine|norepinephrine)",
             r"what.*(?:icu|intensive care|hospital|clinical|medical)",
             r"what.*(?:patient|case|scenario|situation)"
         ]

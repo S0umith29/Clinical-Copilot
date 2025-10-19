@@ -19,9 +19,9 @@ class Settings(BaseModel):
     # Clinical Knowledge Base
     mimic_data_path: str = "./data/mimic_demo"
     max_context_length: int = 4000
-    similarity_threshold: float = 0.25
-    top_k_results: int = 8
-    top_k_context: int = 5
+    similarity_threshold: float = 0.15
+    top_k_results: int = 10
+    top_k_context: int = 6
     
     
     # Guardrails
@@ -30,7 +30,10 @@ class Settings(BaseModel):
         "diagnosis", "treatment", "therapy", "medication", "drug", "surgery",
         "ventilator", "respiratory", "cardiac", "neurological", "sepsis",
         "acidosis", "ards", "blood gas", "vital signs", "monitoring",
-        "protocol", "guideline", "standard", "criteria", "threshold"
+        "protocol", "guideline", "standard", "criteria", "threshold",
+        "vasopressor", "vasopressors", "pressor", "pressors", "vasopressin",
+        "inotrope", "inotropes", "dobutamine", "norepinephrine",
+        "shock", "cardiogenic shock", "titrate", "wean"
     ]
     
     class Config:

@@ -183,6 +183,24 @@ class ClinicalKnowledgeBase:
                         "rank": i + 1
                     })
             
+            # Fallback: if nothing passes threshold, return top 3 regardless
+            if not search_results:
+                fallback = []
+                for i, (doc, metadata, distance) in enumerate(zip(
+                    results["documents"][0],
+                    results["metadatas"][0],
+                    results["distances"][0]
+                )):
+                    if i >= 3:
+                        break
+                    fallback.append({
+                        "document": doc,
+                        "metadata": metadata,
+                        "similarity": 1 - distance,
+                        "rank": i + 1
+                    })
+                return fallback
+
             return search_results
         
         except Exception as e:
