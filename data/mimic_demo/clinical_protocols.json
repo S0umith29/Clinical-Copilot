@@ -1,0 +1,58 @@
+{
+  "acidosis_management": {
+    "title": "Acidosis Management Protocol",
+    "source": "MIMIC-IV Clinical Notes",
+    "content": "Blood gas threshold for acidosis management: pH < 7.35 indicates acidosis. For metabolic acidosis, target pH > 7.20. For respiratory acidosis, focus on improving ventilation. Bicarbonate therapy considered when pH < 7.15 or HCO3- < 10 mEq/L. Monitor serum electrolytes, especially potassium and chloride. Consider underlying cause: diabetic ketoacidosis, lactic acidosis, or renal failure.",
+    "keywords": ["acidosis", "blood gas", "pH", "bicarbonate", "metabolic", "respiratory"],
+    "category": "critical_care"
+  },
+  "ards_ventilator_settings": {
+    "title": "ARDS Ventilator Management",
+    "source": "MIMIC-IV ICU Protocols",
+    "content": "Standard ventilator settings for ARDS: Tidal volume 6 mL/kg predicted body weight (PBW), PEEP 8-15 cmH2O, FiO2 to maintain SpO2 88-95%, Plateau pressure < 30 cmH2O. Use ARDSNet protocol: Low tidal volume strategy, permissive hypercapnia acceptable (pH > 7.20), prone positioning for severe ARDS (PaO2/FiO2 < 150). Monitor driving pressure (Pplat - PEEP) < 15 cmH2O.",
+    "keywords": ["ards", "ventilator", "tidal volume", "peep", "respiratory", "icu"],
+    "category": "respiratory_care"
+  },
+  "sepsis_diagnosis": {
+    "title": "Sepsis-3 Diagnostic Criteria",
+    "source": "MIMIC-IV Clinical Guidelines",
+    "content": "Sepsis-3 definition: Life-threatening organ dysfunction caused by dysregulated host response to infection. SOFA score ≥ 2 points indicates organ dysfunction. qSOFA criteria: altered mental status (GCS < 15), systolic BP ≤ 100 mmHg, respiratory rate ≥ 22/min. Two or more qSOFA criteria suggest high risk. Septic shock: vasopressor requirement to maintain MAP ≥ 65 mmHg and lactate > 2 mmol/L despite adequate fluid resuscitation.",
+    "keywords": ["sepsis", "septic shock", "sofa", "qsofa", "infection", "organ dysfunction"],
+    "category": "infectious_disease"
+  },
+  "acute_respiratory_failure": {
+    "title": "Acute Respiratory Failure Management",
+    "source": "MIMIC-IV ICU Notes",
+    "content": "Acute respiratory failure management: Type I (hypoxemic): PaO2 < 60 mmHg on room air, treat with oxygen therapy, consider NIV or intubation. Type II (hypercapnic): PaCO2 > 50 mmHg with pH < 7.35, consider NIV first, intubation if NIV fails. Monitor ABG every 2-4 hours initially. Target SpO2 88-95% to avoid oxygen toxicity. Consider underlying causes: pneumonia, COPD exacerbation, pulmonary edema, ARDS.",
+    "keywords": ["respiratory failure", "hypoxemia", "hypercapnia", "abg", "oxygen therapy"],
+    "category": "respiratory_care"
+  },
+  "hemodynamic_monitoring": {
+    "title": "Hemodynamic Monitoring in ICU",
+    "source": "MIMIC-IV Critical Care Protocols",
+    "content": "Hemodynamic monitoring parameters: MAP target 65-70 mmHg, CVP 8-12 mmHg, cardiac index > 2.5 L/min/m², SVR 800-1200 dyn·s/cm⁵. Use fluid responsiveness tests: passive leg raise, pulse pressure variation > 13%, stroke volume variation > 10%. Vasopressor choice: norepinephrine first-line, add vasopressin if refractory. Inotrope consideration: dobutamine for low cardiac output, milrinone for right heart failure.",
+    "keywords": ["hemodynamic", "monitoring", "map", "cvp", "vasopressor", "inotrope"],
+    "category": "cardiovascular_care"
+  },
+  "sedation_analgesia": {
+    "title": "ICU Sedation and Analgesia Protocol",
+    "source": "MIMIC-IV Pain Management Guidelines",
+    "content": "ICU sedation protocol: RASS target -2 to 0 (light sedation), use RASS and CAM-ICU for delirium assessment. First-line: propofol or dexmedetomidine. Avoid benzodiazepines when possible. Analgesia: fentanyl or morphine for pain, consider regional anesthesia. Daily sedation interruption and spontaneous breathing trials. Monitor for withdrawal symptoms. Delirium prevention: early mobility, sleep hygiene, family presence.",
+    "keywords": ["sedation", "analgesia", "rass", "delirium", "propofol", "dexmedetomidine"],
+    "category": "pain_management"
+  },
+  "nutrition_support": {
+    "title": "ICU Nutrition Support Guidelines",
+    "source": "MIMIC-IV Nutrition Protocols",
+    "content": "ICU nutrition support: Start enteral nutrition within 24-48 hours if no contraindications. Target 25-30 kcal/kg/day, protein 1.2-2.0 g/kg/day. Use indirect calorimetry when available. Trophic feeding (10-20 kcal/hour) acceptable for first week. Monitor gastric residuals < 500 mL. Consider post-pyloric feeding for high aspiration risk. Parenteral nutrition if enteral not feasible after 7 days. Monitor glucose control, target 140-180 mg/dL.",
+    "keywords": ["nutrition", "enteral", "parenteral", "calories", "protein", "glucose"],
+    "category": "nutrition_care"
+  },
+  "infection_control": {
+    "title": "ICU Infection Control Measures",
+    "source": "MIMIC-IV Infection Prevention",
+    "content": "ICU infection control: Hand hygiene before and after patient contact. Central line bundle: chlorhexidine skin prep, full barrier precautions, avoid femoral site, daily necessity review. VAP prevention: head of bed elevation 30-45°, daily sedation interruption, oral care with chlorhexidine. CAUTI prevention: aseptic insertion, maintain closed system, daily necessity review. Contact precautions for MDROs. Environmental cleaning with EPA-registered disinfectants.",
+    "keywords": ["infection control", "hand hygiene", "central line", "vap", "cauti", "mdro"],
+    "category": "infection_prevention"
+  }
+}

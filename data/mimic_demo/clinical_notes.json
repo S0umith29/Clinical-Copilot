@@ -1,0 +1,83 @@
+{
+  "case_001": {
+    "patient_id": "MIMIC_001",
+    "admission_date": "2023-01-15",
+    "icu_unit": "MICU",
+    "diagnosis": "Septic shock with ARDS",
+    "clinical_notes": [
+      {
+        "timestamp": "2023-01-15 08:00",
+        "note_type": "ICU Admission Note",
+        "content": "Patient admitted with septic shock secondary to pneumonia. Initial vitals: BP 85/45, HR 120, RR 28, SpO2 88% on 6L NC. ABG: pH 7.25, PaCO2 45, PaO2 65, HCO3 18, lactate 4.2. Started on norepinephrine 0.1 mcg/kg/min, fluid resuscitation with crystalloids. SOFA score 8. Meeting sepsis-3 criteria with organ dysfunction."
+      },
+      {
+        "timestamp": "2023-01-15 12:00",
+        "note_type": "Progress Note",
+        "content": "Patient requiring intubation due to worsening respiratory failure. ARDS criteria met: bilateral infiltrates, PaO2/FiO2 ratio 180. Ventilator settings: AC mode, TV 6 mL/kg PBW (420 mL), PEEP 10, FiO2 0.6, RR 20. Plateau pressure 28 cmH2O. Permissive hypercapnia with pH 7.22 acceptable. Started on propofol sedation, fentanyl analgesia."
+      },
+      {
+        "timestamp": "2023-01-16 06:00",
+        "note_type": "Morning Rounds",
+        "content": "Overnight course stable. Hemodynamics improved with MAP 70 mmHg on norepinephrine 0.05 mcg/kg/min. ABG: pH 7.28, PaCO2 52, PaO2 85, HCO3 24. Lactate down to 2.1. Ventilator settings adjusted: PEEP increased to 12, FiO2 decreased to 0.5. PaO2/FiO2 ratio 170. Consider prone positioning if no improvement in 24 hours."
+      }
+    ],
+    "keywords": ["sepsis", "ards", "ventilator", "norepinephrine", "sofa", "respiratory failure"]
+  },
+  "case_002": {
+    "patient_id": "MIMIC_002",
+    "admission_date": "2023-02-03",
+    "icu_unit": "SICU",
+    "diagnosis": "Post-operative respiratory failure",
+    "clinical_notes": [
+      {
+        "timestamp": "2023-02-03 14:30",
+        "note_type": "Post-op ICU Transfer",
+        "content": "Patient transferred from OR after emergency laparotomy for perforated diverticulitis. Post-op course complicated by acute respiratory failure. ABG: pH 7.18, PaCO2 58, PaO2 72, HCO3 21. Metabolic acidosis with respiratory compensation. Started on BiPAP initially, but required intubation due to worsening hypercapnia and altered mental status."
+      },
+      {
+        "timestamp": "2023-02-03 18:00",
+        "note_type": "ICU Note",
+        "content": "Intubated and mechanically ventilated. Settings: SIMV mode, TV 8 mL/kg, PEEP 5, FiO2 0.4, RR 16. Plateau pressure 25 cmH2O. Hemodynamically stable, no vasopressors needed. Started on propofol 25 mcg/kg/min, fentanyl 50 mcg/hr. RASS -2. Plan for daily sedation interruption and SBT tomorrow if stable."
+      }
+    ],
+    "keywords": ["post-operative", "respiratory failure", "hypercapnia", "metabolic acidosis", "ventilator"]
+  },
+  "case_003": {
+    "patient_id": "MIMIC_003",
+    "admission_date": "2023-02-10",
+    "icu_unit": "CCU",
+    "diagnosis": "Acute MI with cardiogenic shock",
+    "clinical_notes": [
+      {
+        "timestamp": "2023-02-10 10:15",
+        "note_type": "Cardiology Consult",
+        "content": "Patient with STEMI, anterior wall, underwent primary PCI with drug-eluting stent to LAD. Post-procedure complicated by cardiogenic shock. Echo: EF 25%, severe global hypokinesis. Hemodynamics: MAP 55 mmHg, CVP 18 mmHg, cardiac index 1.8 L/min/m². Started on dobutamine 5 mcg/kg/min and norepinephrine 0.1 mcg/kg/min. IABP considered if no improvement."
+      },
+      {
+        "timestamp": "2023-02-10 16:00",
+        "note_type": "ICU Progress",
+        "content": "Hemodynamics improved with inotropic support. Current MAP 68 mmHg, CVP 12 mmHg. Dobutamine increased to 7.5 mcg/kg/min. Norepinephrine weaned to 0.05 mcg/kg/min. Cardiac index improved to 2.2 L/min/m². Urine output adequate at 1.2 mL/kg/hr. Plan to wean vasopressors gradually over next 24-48 hours."
+      }
+    ],
+    "keywords": ["cardiogenic shock", "acute mi", "dobutamine", "norepinephrine", "hemodynamics", "iabp"]
+  },
+  "case_004": {
+    "patient_id": "MIMIC_004",
+    "admission_date": "2023-02-18",
+    "icu_unit": "MICU",
+    "diagnosis": "Diabetic ketoacidosis with severe acidosis",
+    "clinical_notes": [
+      {
+        "timestamp": "2023-02-18 22:00",
+        "note_type": "Emergency Department Transfer",
+        "content": "Patient with DKA, type 1 diabetes. Initial presentation: altered mental status, Kussmaul respirations, fruity breath odor. Labs: glucose 650 mg/dL, pH 6.95, HCO3 5, anion gap 28, ketones positive. Severe metabolic acidosis requiring ICU monitoring. Started on insulin drip 0.1 units/kg/hr, aggressive fluid resuscitation with normal saline."
+      },
+      {
+        "timestamp": "2023-02-19 06:00",
+        "note_type": "ICU Morning Rounds",
+        "content": "Overnight improvement in acidosis. Repeat ABG: pH 7.15, HCO3 12, anion gap 18. Glucose down to 280 mg/dL. Insulin drip continued at 0.05 units/kg/hr. Potassium supplementation needed due to intracellular shift. Patient more alert, Kussmaul respirations resolved. Plan to transition to subcutaneous insulin when anion gap closes and patient eating."
+      }
+    ],
+    "keywords": ["dka", "diabetic ketoacidosis", "metabolic acidosis", "insulin", "anion gap", "glucose"]
+  }
+}

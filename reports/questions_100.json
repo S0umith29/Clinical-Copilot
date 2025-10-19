@@ -1,0 +1,1234 @@
+{
+  "summary": {
+    "generated_at": "2025-10-18T13:43:13.016695",
+    "total_questions": 100,
+    "clinical": 55,
+    "non_clinical": 45,
+    "with_sources": 9,
+    "avg_confidence": 0.335,
+    "by_topic": {
+      "ARDS & Ventilation": {
+        "total": 12,
+        "clinical": 10,
+        "with_sources": 1,
+        "avg_confidence": 0.506
+      },
+      "Acidosis & ABG": {
+        "total": 15,
+        "clinical": 12,
+        "with_sources": 3,
+        "avg_confidence": 0.489
+      },
+      "Sepsis & Shock": {
+        "total": 12,
+        "clinical": 4,
+        "with_sources": 1,
+        "avg_confidence": 0.208
+      },
+      "Hemodynamics": {
+        "total": 13,
+        "clinical": 6,
+        "with_sources": 0,
+        "avg_confidence": 0.282
+      },
+      "Sedation & Analgesia": {
+        "total": 12,
+        "clinical": 8,
+        "with_sources": 3,
+        "avg_confidence": 0.4
+      },
+      "Respiratory Failure": {
+        "total": 13,
+        "clinical": 7,
+        "with_sources": 0,
+        "avg_confidence": 0.323
+      },
+      "Infection Control & Lines": {
+        "total": 12,
+        "clinical": 3,
+        "with_sources": 0,
+        "avg_confidence": 0.15
+      },
+      "Nutrition & Glycemia": {
+        "total": 11,
+        "clinical": 5,
+        "with_sources": 1,
+        "avg_confidence": 0.282
+      }
+    }
+  },
+  "results": [
+    {
+      "id": 1,
+      "topic": "ARDS & Ventilation",
+      "question": "What ventilator settings are standard for ARDS?",
+      "guardrail_triggered": false,
+      "confidence": 0.6333333333333333,
+      "context_used": true,
+      "num_sources": 1,
+      "sources": [
+        {
+          "type": "protocol",
+          "similarity": 0.5094346373386929,
+          "content_preview": "Title: ARDS Ventilator Management\nSource: MIMIC-IV ICU Protocols\nContent: Standard ventilator settings for ARDS: Tidal volume 6 mL/kg predicted body weight (PBW), PEEP 8-15 cmH2O, FiO2 to maintain SpO...",
+          "title": "ARDS Ventilator Management",
+          "category": "respiratory_care"
+        }
+      ],
+      "answer_preview": "Based on clinical protocols and guidelines from MIMIC-IV:\n\n**ARDS Ventilator Management:**\nStandard ventilator settings for ARDS: Tidal volume 6 mL/kg predicted body weight (PBW), PEEP 8-15 cmH2O, FiO"
+    },
+    {
+      "id": 2,
+      "topic": "ARDS & Ventilation",
+      "question": "Target plateau pressure in ARDS?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 3,
+      "topic": "ARDS & Ventilation",
+      "question": "Recommended PEEP range in moderate ARDS?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 4,
+      "topic": "ARDS & Ventilation",
+      "question": "When to use prone positioning in ARDS?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 5,
+      "topic": "ARDS & Ventilation",
+      "question": "What tidal volume per PBW for ARDS?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 6,
+      "topic": "ARDS & Ventilation",
+      "question": "Acceptable pH with permissive hypercapnia?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 7,
+      "topic": "ARDS & Ventilation",
+      "question": "How to monitor driving pressure in ARDS?",
+      "guardrail_triggered": false,
+      "confidence": 0.6333333333333333,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 8,
+      "topic": "ARDS & Ventilation",
+      "question": "Criteria to reduce FiO2 in ARDS?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 9,
+      "topic": "ARDS & Ventilation",
+      "question": "When to consider neuromuscular blockade?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 10,
+      "topic": "ARDS & Ventilation",
+      "question": "Daily sedation plan for ventilated ARDS patients?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 11,
+      "topic": "Acidosis & ABG",
+      "question": "What is the blood gas threshold for acidosis management?",
+      "guardrail_triggered": false,
+      "confidence": 0.6666666666666666,
+      "context_used": true,
+      "num_sources": 1,
+      "sources": [
+        {
+          "type": "protocol",
+          "similarity": 0.4968746075169316,
+          "content_preview": "Title: Acidosis Management Protocol\nSource: MIMIC-IV Clinical Notes\nContent: Blood gas threshold for acidosis management: pH < 7.35 indicates acidosis. For metabolic acidosis, target pH > 7.20. For re...",
+          "title": "Acidosis Management Protocol",
+          "category": "critical_care"
+        }
+      ],
+      "answer_preview": "Based on clinical protocols and guidelines from MIMIC-IV:\n\n**Acidosis Management Protocol:**\nBlood gas threshold for acidosis management: pH < 7.35 indicates acidosis. For metabolic acidosis, target p"
+    },
+    {
+      "id": 12,
+      "topic": "Acidosis & ABG",
+      "question": "When to give bicarbonate in metabolic acidosis?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": true,
+      "num_sources": 1,
+      "sources": [
+        {
+          "type": "protocol",
+          "similarity": 0.3273119265215809,
+          "content_preview": "Title: Acidosis Management Protocol\nSource: MIMIC-IV Clinical Notes\nContent: Blood gas threshold for acidosis management: pH < 7.35 indicates acidosis. For metabolic acidosis, target pH > 7.20. For re...",
+          "title": "Acidosis Management Protocol",
+          "category": "critical_care"
+        }
+      ],
+      "answer_preview": "Based on clinical protocols and guidelines from MIMIC-IV:\n\n**Acidosis Management Protocol:**\nBlood gas threshold for acidosis management: pH < 7.35 indicates acidosis. For metabolic acidosis, target p"
+    },
+    {
+      "id": 13,
+      "topic": "Acidosis & ABG",
+      "question": "ABG frequency for acute respiratory failure?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 14,
+      "topic": "Acidosis & ABG",
+      "question": "How to interpret pH 7.15 with low HCO3-?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 15,
+      "topic": "Acidosis & ABG",
+      "question": "Potassium monitoring during acidosis correction?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 16,
+      "topic": "Acidosis & ABG",
+      "question": "Targets for pH correction in DKA?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 17,
+      "topic": "Acidosis & ABG",
+      "question": "Differentiating respiratory vs metabolic acidosis on ABG?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 18,
+      "topic": "Acidosis & ABG",
+      "question": "Role of ventilation in respiratory acidosis?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 19,
+      "topic": "Acidosis & ABG",
+      "question": "When to repeat lactate trends in shock?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 20,
+      "topic": "Acidosis & ABG",
+      "question": "Thresholds for severe acidosis requiring ICU?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 21,
+      "topic": "Sepsis & Shock",
+      "question": "What are the Sepsis-3 diagnostic criteria?",
+      "guardrail_triggered": false,
+      "confidence": 0.6666666666666666,
+      "context_used": true,
+      "num_sources": 1,
+      "sources": [
+        {
+          "type": "protocol",
+          "similarity": 0.46028507429469245,
+          "content_preview": "Title: Sepsis-3 Diagnostic Criteria\nSource: MIMIC-IV Clinical Guidelines\nContent: Sepsis-3 definition: Life-threatening organ dysfunction caused by dysregulated host response to infection. SOFA score ...",
+          "title": "Sepsis-3 Diagnostic Criteria",
+          "category": "infectious_disease"
+        }
+      ],
+      "answer_preview": "Based on clinical protocols and guidelines from MIMIC-IV:\n\n**Sepsis-3 Diagnostic Criteria:**\nSepsis-3 definition: Life-threatening organ dysfunction caused by dysregulated host response to infection. "
+    },
+    {
+      "id": 22,
+      "topic": "Sepsis & Shock",
+      "question": "What is qSOFA and how is it used?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 23,
+      "topic": "Sepsis & Shock",
+      "question": "MAP target in septic shock?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 24,
+      "topic": "Sepsis & Shock",
+      "question": "First-line vasopressor in septic shock?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 25,
+      "topic": "Sepsis & Shock",
+      "question": "When to add vasopressin in shock?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 26,
+      "topic": "Sepsis & Shock",
+      "question": "Fluid responsiveness assessment methods?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 27,
+      "topic": "Sepsis & Shock",
+      "question": "Initial lactate target and reassessment?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 28,
+      "topic": "Sepsis & Shock",
+      "question": "When to start antibiotics in suspected sepsis?",
+      "guardrail_triggered": false,
+      "confidence": 0.6333333333333333,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 29,
+      "topic": "Sepsis & Shock",
+      "question": "Indicators of organ dysfunction in SOFA?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 30,
+      "topic": "Sepsis & Shock",
+      "question": "When is septic shock diagnosed?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 31,
+      "topic": "Hemodynamics",
+      "question": "What CVP range is targeted in ICU monitoring?",
+      "guardrail_triggered": false,
+      "confidence": 0.6666666666666666,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 32,
+      "topic": "Hemodynamics",
+      "question": "When to choose dobutamine vs milrinone?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 33,
+      "topic": "Hemodynamics",
+      "question": "Normal SVR range and interpretation?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 34,
+      "topic": "Hemodynamics",
+      "question": "How to titrate norepinephrine safely?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 35,
+      "topic": "Hemodynamics",
+      "question": "Cardiac index threshold indicating low output?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 36,
+      "topic": "Hemodynamics",
+      "question": "Use of passive leg raise in fluid assessment?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 37,
+      "topic": "Hemodynamics",
+      "question": "What stroke volume variation suggests fluid responsiveness?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 38,
+      "topic": "Hemodynamics",
+      "question": "When to wean vasopressors in cardiogenic shock?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 39,
+      "topic": "Hemodynamics",
+      "question": "When to consider IABP?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 40,
+      "topic": "Hemodynamics",
+      "question": "Monitoring urine output goals in shock?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 41,
+      "topic": "Sedation & Analgesia",
+      "question": "RASS target for light sedation in ICU?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": true,
+      "num_sources": 1,
+      "sources": [
+        {
+          "type": "protocol",
+          "similarity": 0.4299059738869846,
+          "content_preview": "Title: ICU Sedation and Analgesia Protocol\nSource: MIMIC-IV Pain Management Guidelines\nContent: ICU sedation protocol: RASS target -2 to 0 (light sedation), use RASS and CAM-ICU for delirium assessmen...",
+          "title": "ICU Sedation and Analgesia Protocol",
+          "category": "pain_management"
+        }
+      ],
+      "answer_preview": "Based on clinical protocols and guidelines from MIMIC-IV:\n\n**ICU Sedation and Analgesia Protocol:**\nICU sedation protocol: RASS target -2 to 0 (light sedation), use RASS and CAM-ICU for delirium asses"
+    },
+    {
+      "id": 42,
+      "topic": "Sedation & Analgesia",
+      "question": "When to use dexmedetomidine vs propofol?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 43,
+      "topic": "Sedation & Analgesia",
+      "question": "Daily sedation interruption protocol?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 44,
+      "topic": "Sedation & Analgesia",
+      "question": "Analgesia-first sedation approach guidance?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 45,
+      "topic": "Sedation & Analgesia",
+      "question": "Opioid choices for ventilated patients?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 46,
+      "topic": "Sedation & Analgesia",
+      "question": "Delirium prevention strategies in ICU?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 47,
+      "topic": "Sedation & Analgesia",
+      "question": "CAM-ICU use and frequency?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 48,
+      "topic": "Sedation & Analgesia",
+      "question": "Managing withdrawal during weaning?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 49,
+      "topic": "Sedation & Analgesia",
+      "question": "Non-benzodiazepine sedation preference?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 50,
+      "topic": "Sedation & Analgesia",
+      "question": "Spontaneous breathing trial criteria?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 51,
+      "topic": "Respiratory Failure",
+      "question": "Criteria for hypoxemic vs hypercapnic respiratory failure?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 52,
+      "topic": "Respiratory Failure",
+      "question": "When to intubate after failed NIV?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 53,
+      "topic": "Respiratory Failure",
+      "question": "SpO2 targets to avoid oxygen toxicity?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 54,
+      "topic": "Respiratory Failure",
+      "question": "ABG monitoring frequency early in failure?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 55,
+      "topic": "Respiratory Failure",
+      "question": "Common causes of acute respiratory failure in ICU?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 56,
+      "topic": "Respiratory Failure",
+      "question": "Initial ventilator mode selection guidance?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 57,
+      "topic": "Respiratory Failure",
+      "question": "Weaning indicators in recovering failure?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 58,
+      "topic": "Respiratory Failure",
+      "question": "When to increase PEEP in hypoxemia?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 59,
+      "topic": "Respiratory Failure",
+      "question": "Signs NIV is failing and intubation needed?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 60,
+      "topic": "Respiratory Failure",
+      "question": "Role of recruitment maneuvers?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 61,
+      "topic": "Infection Control & Lines",
+      "question": "Central line bundle key steps?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 62,
+      "topic": "Infection Control & Lines",
+      "question": "Preferred site to avoid in CVC?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 63,
+      "topic": "Infection Control & Lines",
+      "question": "VAP prevention components?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 64,
+      "topic": "Infection Control & Lines",
+      "question": "Oral care frequency with chlorhexidine?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 65,
+      "topic": "Infection Control & Lines",
+      "question": "Daily necessity review for catheters?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 66,
+      "topic": "Infection Control & Lines",
+      "question": "CAUTI prevention essentials?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 67,
+      "topic": "Infection Control & Lines",
+      "question": "Contact precautions for MDROs?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 68,
+      "topic": "Infection Control & Lines",
+      "question": "Environmental cleaning standards?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 69,
+      "topic": "Infection Control & Lines",
+      "question": "When to replace central line dressings?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 70,
+      "topic": "Infection Control & Lines",
+      "question": "Head of bed elevation target to reduce VAP?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 71,
+      "topic": "Nutrition & Glycemia",
+      "question": "When to start enteral nutrition in ICU?",
+      "guardrail_triggered": false,
+      "confidence": 0.6333333333333333,
+      "context_used": true,
+      "num_sources": 1,
+      "sources": [
+        {
+          "type": "protocol",
+          "similarity": 0.5764459851761972,
+          "content_preview": "Title: ICU Nutrition Support Guidelines\nSource: MIMIC-IV Nutrition Protocols\nContent: ICU nutrition support: Start enteral nutrition within 24-48 hours if no contraindications. Target 25-30 kcal/kg/da...",
+          "title": "ICU Nutrition Support Guidelines",
+          "category": "nutrition_care"
+        }
+      ],
+      "answer_preview": "Based on clinical protocols and guidelines from MIMIC-IV:\n\n**ICU Nutrition Support Guidelines:**\nICU nutrition support: Start enteral nutrition within 24-48 hours if no contraindications. Target 25-30"
+    },
+    {
+      "id": 72,
+      "topic": "Nutrition & Glycemia",
+      "question": "Calorie targets per kg per day?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 73,
+      "topic": "Nutrition & Glycemia",
+      "question": "Protein requirements per kg per day?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 74,
+      "topic": "Nutrition & Glycemia",
+      "question": "What is trophic feeding and when used?",
+      "guardrail_triggered": true,
+      "confidence": 0.03333333333333333,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 75,
+      "topic": "Nutrition & Glycemia",
+      "question": "When to consider post-pyloric feeding?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 76,
+      "topic": "Nutrition & Glycemia",
+      "question": "When to start parenteral nutrition?",
+      "guardrail_triggered": true,
+      "confidence": 0.03333333333333333,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 77,
+      "topic": "Nutrition & Glycemia",
+      "question": "Glucose control target range in ICU?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 78,
+      "topic": "Nutrition & Glycemia",
+      "question": "Use of indirect calorimetry guidance?",
+      "guardrail_triggered": true,
+      "confidence": 0.0,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I only answer clinical questions grounded in ICU protocols. Please ask about patient care, clinical protocols, or medical management within the ICU/hospital setting."
+    },
+    {
+      "id": 79,
+      "topic": "Nutrition & Glycemia",
+      "question": "Monitoring gastric residuals threshold?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 80,
+      "topic": "Nutrition & Glycemia",
+      "question": "Electrolyte monitoring during refeeding?",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 81,
+      "topic": "Acidosis & ABG",
+      "question": "What are is the blood gas threshold for acidosis management?",
+      "guardrail_triggered": false,
+      "confidence": 0.6666666666666666,
+      "context_used": true,
+      "num_sources": 1,
+      "sources": [
+        {
+          "type": "protocol",
+          "similarity": 0.4959445722197817,
+          "content_preview": "Title: Acidosis Management Protocol\nSource: MIMIC-IV Clinical Notes\nContent: Blood gas threshold for acidosis management: pH < 7.35 indicates acidosis. For metabolic acidosis, target pH > 7.20. For re...",
+          "title": "Acidosis Management Protocol",
+          "category": "critical_care"
+        }
+      ],
+      "answer_preview": "Based on clinical protocols and guidelines from MIMIC-IV:\n\n**Acidosis Management Protocol:**\nBlood gas threshold for acidosis management: pH < 7.35 indicates acidosis. For metabolic acidosis, target p"
+    },
+    {
+      "id": 82,
+      "topic": "Sedation & Analgesia",
+      "question": "Analgesia-first sedation approach guidance? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": true,
+      "num_sources": 1,
+      "sources": [
+        {
+          "type": "protocol",
+          "similarity": 0.40862916007835326,
+          "content_preview": "Title: ICU Sedation and Analgesia Protocol\nSource: MIMIC-IV Pain Management Guidelines\nContent: ICU sedation protocol: RASS target -2 to 0 (light sedation), use RASS and CAM-ICU for delirium assessmen...",
+          "title": "ICU Sedation and Analgesia Protocol",
+          "category": "pain_management"
+        }
+      ],
+      "answer_preview": "Based on clinical protocols and guidelines from MIMIC-IV:\n\n**ICU Sedation and Analgesia Protocol:**\nICU sedation protocol: RASS target -2 to 0 (light sedation), use RASS and CAM-ICU for delirium asses"
+    },
+    {
+      "id": 83,
+      "topic": "Hemodynamics",
+      "question": "Normal SVR range and interpretation? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 84,
+      "topic": "Acidosis & ABG",
+      "question": "When to repeat lactate trends in shock? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 85,
+      "topic": "Acidosis & ABG",
+      "question": "Thresholds for severe acidosis requiring ICU? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 86,
+      "topic": "Infection Control & Lines",
+      "question": "Central line bundle key steps? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 87,
+      "topic": "ARDS & Ventilation",
+      "question": "Target plateau pressure in ARDS? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 88,
+      "topic": "Hemodynamics",
+      "question": "How to titrate norepinephrine safely? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 89,
+      "topic": "ARDS & Ventilation",
+      "question": "When to consider neuromuscular blockade? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 90,
+      "topic": "Hemodynamics",
+      "question": "When to consider IABP? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 91,
+      "topic": "Infection Control & Lines",
+      "question": "Oral care frequency with chlorhexidine? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 92,
+      "topic": "Nutrition & Glycemia",
+      "question": "Electrolyte monitoring during refeeding? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 93,
+      "topic": "Sedation & Analgesia",
+      "question": "RASS target for light sedation in ICU? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": true,
+      "num_sources": 1,
+      "sources": [
+        {
+          "type": "protocol",
+          "similarity": 0.4347235935671596,
+          "content_preview": "Title: ICU Sedation and Analgesia Protocol\nSource: MIMIC-IV Pain Management Guidelines\nContent: ICU sedation protocol: RASS target -2 to 0 (light sedation), use RASS and CAM-ICU for delirium assessmen...",
+          "title": "ICU Sedation and Analgesia Protocol",
+          "category": "pain_management"
+        }
+      ],
+      "answer_preview": "Based on clinical protocols and guidelines from MIMIC-IV:\n\n**ICU Sedation and Analgesia Protocol:**\nICU sedation protocol: RASS target -2 to 0 (light sedation), use RASS and CAM-ICU for delirium asses"
+    },
+    {
+      "id": 94,
+      "topic": "Sepsis & Shock",
+      "question": "Initial lactate target and reassessment? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 95,
+      "topic": "Respiratory Failure",
+      "question": "Common causes of acute respiratory failure in ICU? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 96,
+      "topic": "Sepsis & Shock",
+      "question": "First-line vasopressor in septic shock? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 97,
+      "topic": "Respiratory Failure",
+      "question": "When to intubate after failed NIV? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 98,
+      "topic": "Acidosis & ABG",
+      "question": "Differentiating respiratory vs metabolic acidosis on ABG? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 99,
+      "topic": "Acidosis & ABG",
+      "question": "Targets for pH correction in DKA? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    },
+    {
+      "id": 100,
+      "topic": "Respiratory Failure",
+      "question": "Role of recruitment maneuvers? (ICU)",
+      "guardrail_triggered": false,
+      "confidence": 0.6,
+      "context_used": false,
+      "num_sources": 0,
+      "sources": [],
+      "answer_preview": "I don't have specific information about this in my current knowledge base. This question may be outside my scope or the information may not be available in the MIMIC-IV demo data. Please consult curre"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Cursor/Agent
+.cursor/
+
+# Logs
+*.log
+
+# Data/artifacts
+chroma_db/
+
+# Node (if any future UI assets)
+node_modules/
