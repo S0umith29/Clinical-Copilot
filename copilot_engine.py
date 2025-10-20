@@ -124,7 +124,7 @@ class ClinicalQuestionCopilot:
             response_parts.append("Based on clinical protocols and guidelines from MIMIC-IV:")
             
             for protocol in protocols_found[:2]:  # Limit to top 2 protocols
-                response_parts.append(f"\n**{protocol['title']}:**")
+                response_parts.append(f"\n<strong><em>{protocol['title']}:</em></strong>")
                 # Extract the main content (after "Content: ")
                 content = protocol['content']
                 if "Content: " in content:
@@ -134,7 +134,7 @@ class ClinicalQuestionCopilot:
                     response_parts.append(content)
         
         if cases_found:
-            response_parts.append("\n**Clinical Cases from MIMIC-IV:**")
+            response_parts.append("\n<strong><em>Clinical Cases from MIMIC-IV:</em></strong>")
             
             for case in cases_found[:1]:  # Limit to 1 case example
                 response_parts.append(f"\nCase: {case['patient_id']} - {case['diagnosis']}")
@@ -150,9 +150,10 @@ class ClinicalQuestionCopilot:
             return "I found some relevant information but couldn't generate a specific response. Please rephrase your question or ask about a more specific clinical topic."
         
         # Add disclaimer
-        response_parts.append("\n\n*Note: This information is based on MIMIC-IV demo data and clinical protocols. Always consult current guidelines and your clinical team for patient care decisions.*")
+        response_parts.append("\n\n<em>Note: This information is based on MIMIC-IV demo data and clinical protocols. Always consult current guidelines and your clinical team for patient care decisions.</em>")
         
-        return "\n".join(response_parts)
+        # Use HTML line breaks so formatting renders in the UI
+        return "\n".join(response_parts).replace("\n", "<br>")
     
     def _format_sources(self, search_results: List[Dict]) -> List[Dict[str, Any]]:
         """Format search results as sources."""
